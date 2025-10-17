@@ -42,9 +42,49 @@
   .steps-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
+    padding: 0 1rem;
   }
   
   .step-card {
     padding: 1rem;
+    margin: 0 0.5rem;
+  }
+  
+  .step-title {
+    font-size: 1.2rem;
+  }
+  
+  .step-description {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .steps {
+    padding: 2rem 0;
+  }
+  
+  .steps-grid {
+    gap: 1.5rem;
+    padding: 0 0.5rem;
+  }
+  
+  .step-card {
+    padding: 0.75rem;
+    margin: 0;
+  }
+  
+  .step-icon {
+    margin-bottom: 1rem;
+  }
+  
+  .step-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .step-description {
+    font-size: 0.9rem;
+    line-height: 1.5;
   }
 }

@@ -51,9 +51,49 @@
   .features-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+    padding: 0 1rem;
   }
   
   .feature-card {
     padding: 1.5rem;
+    margin: 0 0.5rem;
+  }
+  
+  .feature-title {
+    font-size: 1.2rem;
+  }
+  
+  .feature-description {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .features {
+    padding: 2rem 0;
+  }
+  
+  .features-grid {
+    gap: 1rem;
+    padding: 0 0.5rem;
+  }
+  
+  .feature-card {
+    padding: 1.25rem;
+    margin: 0;
+  }
+  
+  .feature-icon {
+    margin-bottom: 1rem;
+  }
+  
+  .feature-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .feature-description {
+    font-size: 0.9rem;
+    line-height: 1.5;
   }
 }

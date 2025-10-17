@@ -13,7 +13,6 @@ const Video = () => {
             muted 
             loop 
             playsInline
-            controls
           >
             <source src="/assets/mainsafehomevideo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
@@ -28,3 +27,4 @@ const Video = () => {
 };
 
 export default Video;
+

@@ -38,9 +38,43 @@
   
   .video-container {
     margin: 0 auto 1.5rem;
+    padding: 0 1rem;
+  }
+  
+  .main-video {
+    border-radius: 12px;
+  }
+  
+  .video-description {
+    padding: 0 1rem;
   }
   
   .video-description p {
     font-size: 1rem;
   }
 }
+
+@media (max-width: 480px) {
+  .video-section {
+    padding: 2rem 0;
+  }
+  
+  .video-container {
+    margin: 0 auto 1rem;
+    padding: 0 0.5rem;
+  }
+  
+  .main-video {
+    border-radius: 8px;
+  }
+  
+  .video-description {
+    padding: 0 0.5rem;
+  }
+  
+  .video-description p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+}
+

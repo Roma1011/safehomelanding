@@ -68,15 +68,54 @@
   
   .hero-title {
     font-size: 2rem;
+    line-height: 1.1;
   }
   
   .hero-subtitle {
     font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-cta {
+    font-size: 1rem;
+    padding: 12px 24px;
   }
   
   .hero-video-player {
     max-width: 100%;
     border-radius: 16px;
     box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 1.5rem 0;
+  }
+  
+  .hero-content {
+    gap: 1.5rem;
+  }
+  
+  .hero-title {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .hero-cta {
+    font-size: 0.95rem;
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 280px;
+  }
+  
+  .hero-video-player {
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
   }
 }

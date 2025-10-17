@@ -85,9 +85,40 @@ body {
 @media (max-width: 768px) {
   .section-title {
     font-size: 2rem;
+    margin-bottom: 2rem;
   }
   
   .container {
     padding: 0 15px;
+  }
+  
+  .btn-primary {
+    font-size: 0.95rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .container {
+    padding: 0 10px;
+  }
+  
+  .btn-primary {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+  
+  /* Improve touch targets */
+  .nav-link,
+  .btn-primary {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
